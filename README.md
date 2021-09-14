@@ -1,3 +1,3 @@
 //Exercise one
 
-to end cntrl +C 
+to end cntrl +C
