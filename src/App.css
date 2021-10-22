@@ -1,15 +1,22 @@
+/*date text effecting each other across the pages how to get each one to line up properly
+/* 16 px padding where is it coming from ? ArticleCardText*/
 .PageWrapper{
   margin: 0 auto;
   max-width: 1160px;
   padding: 0 25px;
+  padding-bottom: 20px;
+
 }
 
 .HeaderOneStyle{
-font-size: 80px;
-font-weight: normal;
-margin: 0;
+  font-size: 80px;
+  font-weight: normal;
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 20px;
 
 }
+
 
 .ArticleCardWrapper{
   align-items: flex-start;
@@ -17,8 +24,13 @@ margin: 0;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  padding: 25px;
+  padding-left:25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+
 }
+
 
 .ArticleCardImage{
   flex-basis: 30%;
@@ -30,43 +42,52 @@ margin: 0;
 
 }
 
+.ArticleCardTitle{
+  margin: 0px;
+
+}
+
 .ArticleCardText{
   flex-basis: 70%;
+  padding-left: 30px;
 }
 
 .ArticleCardDate{
+  padding-left: 10px;
 
 }
 
 
 .ArticleCardBlurb{
-
+  padding-top: 10px;
 }
 
 .ArticleCardLink{
-
+  padding-top: 10px;
+  font-weight: bold;
 }
+
 
 .ArticleHeader{
-    background-color: grey;
-    padding: 40px 0;
+  background-color: grey;
+  padding: 40px 0;
 }
 .ArticleHeaderText{
+  font-size: 25px;
   margin: 0 auto;
   max-width: 640px;
   padding: 0 25px;
 }
 
 .ArticleHeaderBlurb{
-  font-size: 16px;
   line-height: 1.5;
 
 }
 
 .ArticleText{
+  padding-top: 30px;
   margin: 0 auto;
   max-width: 640px;
-
 }
 
 .ArticleText p{
